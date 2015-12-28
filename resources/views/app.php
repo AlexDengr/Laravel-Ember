@@ -19,9 +19,13 @@
 <body>
 
 
-<script src="assets/vendor.js"></script>
-<script src="assets/ember-app.js"></script>
+<script src="//builds.emberjs.com/tags/v1.13.5/ember-template-compiler.js" defer></script>
+<script src="assets/vendor.js" defer></script>
+<script src="assets/ember-app.js" defer></script>
 
+<script type="text/x-handlebars" defer>
+     @{{news}}
+</script>
 
 </body>
 </html>

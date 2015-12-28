@@ -30,7 +30,9 @@ Route::group(['middleware' => ['web']], function () {
     //
 });
 
-Route::get('/', function()
+/*Route::get('/', function()
 {
     return View::make('app');
-})->where('data', '.*');
+})->where('data', '.*');*/
+
+Route::get('/', 'IndexController@getNews');
